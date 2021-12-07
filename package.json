@@ -1,0 +1,12 @@
+{
+  "name": "06-webserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "keywords": [],
+  "author": "bryanromero <bryanromero5011@gmail.com> (https://www.npmjs.com/~bryanromero)",
+  "license": "ISC"
+}
