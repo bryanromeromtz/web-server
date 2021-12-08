@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "bryanromero <bryanromero5011@gmail.com> (https://www.npmjs.com/~bryanromero)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

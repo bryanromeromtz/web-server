@@ -1,8 +1,19 @@
-const http = require('http');
+const express = require('express');
+const app = express();
+const port = 8080
 
-http.createServer((req, res) => {
-  res.write('Hello World');
-  res.end();
+app.get('/', (req, res) => {
+  res.send('Home Page');
+});
+
+app.get('/path', (req, res) => {
+  res.send('Route');
+});
+
+app.get('*', (req, res) => {
+  res.send('404 | Page not found');
 })
-  .listen(3000)
-console.log('listening in port 3000')
+
+app.listen(port, (req, res) => {
+  console.log(`Listening on port: ${port}`)
+})
