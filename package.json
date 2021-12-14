@@ -4,12 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app"
+    "start": "node app"
   },
   "keywords": [],
   "author": "bryanromero <bryanromero5011@gmail.com> (https://www.npmjs.com/~bryanromero)",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "hbs": "^4.2.0"
   }
